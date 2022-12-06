@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap");
+
+.container-fluid {
+    padding: 7% 15%;
+}
+/* mains */
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.colored-section {
+    background-color: #ff4c69;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+    color: #000;
+
+}
+
+/* headings */
+.big-heading {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+
+
+/* navingation bar */
+
+.navbar {
+    padding: 0 0 04.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18;
+}
+
+.nav-link {
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+}
+
+/* download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* title image */
+
+.titel-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* media */
+
+@media (max-width: 1280px) {
+    .titel-image{
+        position: static;
+        transform: rotate(0);
+        width: 100%;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    
+}
+
+
+/* features */
+
+#features {
+  position: relative;
+}
+
+.icon {
+  margin: 1rem 0;
+  color: #ff4c69;
+}
+
+.icon:hover {
+  color: #cd3a53;
+}
+
+.features {
+  padding: 2rem;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/* testimonials */
+
+#testimonials {
+    background-color: #ef7272;
+    text-align: center;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press */
+
+#press {
+  padding-bottom: 3%;
+  background-color: #ef7272;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+    padding: 100px;
+}
+.price-text {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.pricing-coloum {
+    padding: 3% 2%;
+}
+
+/* calltoaction */
+
+
+
+/* footer */
+
+.footer-icons {
+    padding: 20px 10px;
+}
+
+.copy-right {
+    padding: 2rem 0 0 0;
+}
